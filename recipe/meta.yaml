@@ -22,6 +22,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
+    - configargparse
+    - pyyaml
 
 test:
   imports:
