@@ -1,4 +1,4 @@
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: slurmgrid
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/slurmgrid/slurmgrid-{{ version }}.tar.gz
-  sha256: ebd2e5b6c8f9aa73aff8eeafd3f3b3cddabf85b2839e79f8e2923eed1896876f
+  sha256: b31fdefd15f423c51432808faeb2e674b58f23e6560e16ea159174f8a009c1b3
 
 build:
   entry_points:
@@ -22,6 +22,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
+    - configargparse
+    - pyyaml
 
 test:
   imports:
