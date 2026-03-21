@@ -1,4 +1,4 @@
-{% set version = "0.1.2" %}
+{% set version = "0.2.0" %}
 
 package:
   name: slurmgrid
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/slurmgrid/slurmgrid-{{ version }}.tar.gz
-  sha256: 90d6e76620088cded124b3628a21b63badedade45c89ca7c5b6bdb7f49505578
+  sha256: 413fdb9ebe3b12913a782108649993fe665d52ac76addc0351cfe191456f42d4
 
 build:
   entry_points:
